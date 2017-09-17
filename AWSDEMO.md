@@ -1,6 +1,6 @@
 # AWS-based Demo
 
-## Background
+## Background for noobs
 
 During the NCBI-hackathon, each team is issued an AWS EC2 instance to host their software, 
 and make sure they have access to common tools.  Our instructions are to ssh into this instance

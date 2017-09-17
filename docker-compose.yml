@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+    web:
+        image: oadb:latest
+        deploy:
+            mode: replicated
+            replicas: 2
+        healthcheck:
+            interval: 10s
+            timeout: 5s
+            retries: 3
+        ports:
+            - 8000:8000
